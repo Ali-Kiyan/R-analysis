@@ -1,0 +1,49 @@
+*------------------------------------------------------------*
+User:                sap146
+Date:                19 December 2017
+Time:                13:21:49
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+            Measurement    Frequency
+Role           Level         Count
+ 
+INPUT        INTERVAL          11
+REJECTED     NOMINAL            1
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Importance
+ 
+                                          Number of    Number of
+                                          Splitting    Surrogate
+Variable Name              Label            Rules        Rules      Importance
+ 
+loudness                                      7             4         1.00000
+tempo                                         3            10         0.94252
+song_hotttnesss      song.hotttnesss          6             0         0.89100
+duration                                      0            10         0.78919
+artist_hotttnesss    artist.hotttnesss        3             7         0.76083
+start_of_fade_out                             0             8         0.75327
+beats_start                                   0            10         0.74315
+tatums_start                                  0             7         0.73031
+time_signature                                1             2         0.65138
+bars_start                                    0             8         0.45177
+end_of_fade_in                                0             7         0.23274
