@@ -1,0 +1,135 @@
+*------------------------------------------------------------*
+User:                sap146
+Date:                19 December 2017
+Time:                13:04:06
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+            Measurement    Frequency
+Role           Level         Count
+ 
+INPUT        INTERVAL          11
+REJECTED     INTERVAL           1
+REJECTED     NOMINAL            2
+SEGMENT      NOMINAL            1
+ 
+ 
+ 
+ 
+Frequencies: _SEGMENT_
+ 
+                                     Percent of
+ Segment     Segment    Frequency       Total
+Variable      Value       Count       Frequency
+ 
+_SEGMENT_    4              2588       39.1646
+_SEGMENT_    6              1782       26.9673
+_SEGMENT_    5              1082       16.3741
+_SEGMENT_    3               934       14.1344
+_SEGMENT_    _OTHER_         222        3.3596
+ 
+ 
+ 
+Variable: _SEGMENT_ Segment: 4 Count: 2588
+Decision Tree Importance Profiles
+ 
+Variable              Worth     Rank
+ 
+song_hotttnesss      0.24677      1
+artist_hotttnesss    0.09744      2
+loudness             0.08261      3
+time_signature       0.06833      4
+tempo                0.02006      5
+duration             0.01398      6
+start_of_fade_out    0.01355      7
+bars_start           0.01140      8
+tatums_start         0.00711      9
+beats_start          0.00647     10
+ 
+ 
+ 
+Variable: _SEGMENT_ Segment: 6 Count: 1782
+Decision Tree Importance Profiles
+ 
+Variable              Worth     Rank
+ 
+song_hotttnesss      0.22400      1
+artist_hotttnesss    0.04683      2
+time_signature       0.03014      3
+loudness             0.00682      4
+bars_start           0.00373      5
+start_of_fade_out    0.00267      6
+duration             0.00240      7
+beats_start          0.00234      8
+tempo                0.00227      9
+tatums_start         0.00205     10
+ 
+ 
+ 
+Variable: _SEGMENT_ Segment: 5 Count: 1082
+Decision Tree Importance Profiles
+ 
+Variable               Worth     Rank
+ 
+loudness             0.057974      1
+song_hotttnesss      0.044329      2
+tempo                0.016894      3
+time_signature       0.015115      4
+bars_start           0.008818      5
+artist_hotttnesss    0.007135      6
+beats_start          0.005997      7
+tatums_start         0.005000      8
+start_of_fade_out    0.003851      9
+duration             0.003700     10
+ 
+ 
+ 
+Variable: _SEGMENT_ Segment: 3 Count: 934
+Decision Tree Importance Profiles
+ 
+Variable              Worth     Rank
+ 
+time_signature       0.23885      1
+bars_start           0.03826      2
+duration             0.00944      3
+start_of_fade_out    0.00912      4
+tempo                0.00450      5
+loudness             0.00428      6
+song_hotttnesss      0.00148      7
+artist_hotttnesss    0.00100      8
+end_of_fade_in       0.00100      9
+tatums_start         0.00099     10
+ 
+ 
+ 
+Variable: _SEGMENT_ Segment: _OTHER_ Count: 222
+Decision Tree Importance Profiles
+ 
+Variable               Worth     Rank
+ 
+time_signature       0.054149      1
+tatums_start         0.008315      2
+beats_start          0.008067      3
+bars_start           0.007820      4
+end_of_fade_in       0.001416      5
+tempo                0.001037      6
+duration             0.000922      7
+loudness             0.000807      8
+start_of_fade_out    0.000796      9
+artist_hotttnesss    0.000169     10
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
