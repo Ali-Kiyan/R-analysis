@@ -1,0 +1,204 @@
+*------------------------------------------------------------*
+User:                sap146
+Date:                20 December 2017
+Time:                15:13:22
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+            Measurement    Frequency
+Role           Level         Count
+ 
+ID           INTERVAL           1
+INPUT        INTERVAL          10
+REJECTED     INTERVAL           1
+REJECTED     NOMINAL            2
+TARGET       NOMINAL            1
+ 
+ 
+ 
+Variable Levels Summary
+(maximum 500 observations printed)
+ 
+                        Frequency
+ Variable     Role        Count
+ 
+_dataobs_     ID           5944
+popularity    TARGET          3
+ 
+ 
+ 
+Class Variable Summary Statistics
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN
+ 
+                                 Number
+Data      Variable                 of                            Mode                  Mode2
+Role        Name        Role     Levels    Missing    Mode    Percentage    Mode2    Percentage
+ 
+TRAIN    popularity    TARGET       3         0        1        52.49         2        25.87
+ 
+ 
+ 
+Distribution of Class Target and Segment Variables
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN
+ 
+Data      Variable                         Frequency
+Role        Name        Role     Level         Count    Percent
+ 
+TRAIN    popularity    TARGET      1            3120    52.4899
+TRAIN    popularity    TARGET      2            1538    25.8748
+TRAIN    popularity    TARGET      0            1286    21.6353
+ 
+ 
+ 
+Interval Variable Summary Statistics
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN
+ 
+                                          Standard          Non
+Variable             Role         Mean    Deviation     Missing     Missing     Minimum      Median     Maximum    Skewness    Kurtosis
+ 
+artist_hotttnesss    INPUT    0.405341    0.130252         5944           0           0    0.394881    1.082503    -0.05564    3.046657
+bars_start           INPUT    1.063753    1.696891         5944           0           0     0.78334    59.74354    14.39844    347.1287
+beats_start          INPUT    0.437233    0.546688         5944           0     0.01887     0.33213    12.24583    7.946676    113.5052
+duration             INPUT     239.336    107.5691         5944           0      3.5522     225.593    1686.752    3.215951    25.99275
+end_of_fade_in       INPUT    0.746564    1.801848         5944           0           0       0.194       36.49    6.400444    72.78849
+loudness             INPUT    -10.2101    5.199315         5944           0     -41.691      -9.148       0.566    -1.30727    2.496565
+start_of_fade_out    INPUT    230.5264    105.7295         5944           0       3.552     216.712    1686.752    3.299848    27.02138
+tatums_start         INPUT    0.302245    0.527233         5944           0     0.01569     0.18969    12.24583    9.007928    133.8041
+tempo                INPUT    123.8158     34.4762         5944           0      26.663     120.731     258.677    0.487015    0.186085
+time_signature       INPUT    3.592026    1.244585         5944           0           1           4           7    -0.61557    1.379747
+ 
+ 
+ 
+Interval Variable Summary Statistics by Class Target
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN Variable=artist_hotttnesss
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role           Label
+ 
+_OVERALL_               0.394881           0        5944           0    1.082503    0.405341    0.130252     -0.05564    3.046657    INPUT    artist.hotttnesss
+popularity      0       0.346798           0        1286           0    0.826777    0.328364     0.11839      -1.3162    2.463404    INPUT    artist.hotttnesss
+popularity      1       0.385572           0        3120           0    0.916053    0.394408     0.11541      -0.2697     3.56905    INPUT    artist.hotttnesss
+popularity      2       0.475941           0        1538           0    1.082503    0.491883    0.118984     1.094503    2.380627    INPUT    artist.hotttnesss
+ 
+ 
+Data Role=TRAIN Variable=bars_start
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role       Label
+ 
+_OVERALL_                0.78334           0        5944           0    59.74354    1.063753    1.696891     14.39844    347.1287    INPUT    bars_start
+popularity      0        0.79655           0        1286           0    34.18217    1.114115    2.028693     10.79656     149.105    INPUT    bars_start
+popularity      1        0.77482           0        3120           0    59.74354    1.055232     1.66266     17.87665    541.4584    INPUT    bars_start
+popularity      2        0.79792           0        1538     0.02186    27.75173    1.038927    1.442286     9.956504    144.4459    INPUT    bars_start
+ 
+ 
+Data Role=TRAIN Variable=beats_start
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role        Label
+ 
+_OVERALL_                0.33213           0        5944     0.01887    12.24583    0.437233    0.546688     7.946676    113.5052    INPUT    beats_start
+popularity      0        0.33311           0        1286     0.01968     5.94783    0.423372    0.454069     5.205246    40.96865    INPUT    beats_start
+popularity      1        0.34028           0        3120     0.01887    12.24583    0.449096    0.580978      8.57566    127.0584    INPUT    beats_start
+popularity      2        0.31665           0        1538     0.02155    10.25171    0.424757    0.545599     7.369807    93.85453    INPUT    beats_start
+ 
+ 
+Data Role=TRAIN Variable=duration
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role      Label
+ 
+_OVERALL_                225.593           0        5944      3.5522    1686.752     239.336    107.5691     3.215951    25.99275    INPUT    duration
+popularity      0       219.1408           0        1286     7.13098    1519.281    236.3875    115.8862      3.36667    23.52442    INPUT    duration
+popularity      1       225.9587           0        3120      3.5522    1598.197    238.9596    105.8843     2.820871     21.8113    INPUT    duration
+popularity      2       230.6085           0        1538    31.32036    1686.752    242.5649     103.654     3.891743    37.87467    INPUT    duration
+ 
+ 
+Data Role=TRAIN Variable=end_of_fade_in
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role         Label
+ 
+_OVERALL_                  0.194           0        5944           0       36.49    0.746564    1.801848     6.400444    72.78849    INPUT    end_of_fade_in
+popularity      0          0.206           0        1286           0      15.186    0.692992    1.493027     4.327771    26.16381    INPUT    end_of_fade_in
+popularity      1          0.206           0        3120           0       36.49    0.770611    1.888193     7.407246    95.90035    INPUT    end_of_fade_in
+popularity      2           0.16           0        1538           0      20.016    0.742578      1.8578     4.903069     31.7397    INPUT    end_of_fade_in
+ 
+ 
+Data Role=TRAIN Variable=loudness
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role      Label
+ 
+_OVERALL_                 -9.148           0        5944     -41.691       0.566    -10.2101    5.199315     -1.30727    2.496565    INPUT    loudness
+popularity      0        -10.325           0        1286     -37.668       -1.83    -11.3056    5.351868     -1.10354    1.658582    INPUT    loudness
+popularity      1         -9.681           0        3120     -38.148       0.566    -10.6514    5.241228     -1.25147    2.292476    INPUT    loudness
+popularity      2         -7.268           0        1538     -41.691      -1.493    -8.39894    4.489138     -1.82921    5.716698    INPUT    loudness
+ 
+ 
+Data Role=TRAIN Variable=start_of_fade_out
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role           Label
+ 
+_OVERALL_                216.712           0        5944       3.552    1686.752    230.5264    105.7295     3.299848    27.02138    INPUT    start_of_fade_out
+popularity      0        209.496           0        1286       7.131    1506.412    227.6592    114.3639     3.464234    24.36796    INPUT    start_of_fade_out
+popularity      1        217.054           0        3120       3.552    1588.216    230.2591    104.0937     2.913262    22.86909    INPUT    start_of_fade_out
+popularity      2        221.756           0        1538       31.32    1686.752    233.4659    101.4162     3.942656    39.22765    INPUT    start_of_fade_out
+ 
+ 
+Data Role=TRAIN Variable=tatums_start
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role        Label
+ 
+_OVERALL_                0.18969           0        5944     0.01569    12.24583    0.302245    0.527233     9.007928    133.8041    INPUT    tatums_start
+popularity      0        0.19485           0        1286     0.01968     5.94783    0.283401    0.419481     6.480503    57.35064    INPUT    tatums_start
+popularity      1         0.1932           0        3120     0.01887    12.24583    0.314538    0.566153       9.5077    144.6163    INPUT    tatums_start
+popularity      2        0.17923           0        1538     0.01569    10.02571    0.293063    0.525905     8.237313    108.0344    INPUT    tatums_start
+ 
+ 
+Data Role=TRAIN Variable=tempo
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role     Label
+ 
+_OVERALL_                120.731           0        5944      26.663     258.677    123.8158     34.4762     0.487015    0.186085    INPUT    tempo
+popularity      0        115.862           0        1286      34.335       246.5    120.3365    34.43269     0.582084    0.195675    INPUT    tempo
+popularity      1        121.487           0        3120      26.663     258.677    123.6592    34.53626     0.422981    0.151383    INPUT    tempo
+popularity      2        123.635           0        1538      33.009     253.357    127.0427    34.11233     0.559741    0.276159    INPUT    tempo
+ 
+ 
+Data Role=TRAIN Variable=time_signature
+ 
+              Target                                 Non                                        Standard
+  Target      Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role         Label
+ 
+_OVERALL_                      4           0        5944           1           7    3.592026    1.244585     -0.61557    1.379747    INPUT    time_signature
+popularity      0              4           0        1286           1           7    3.555988    1.277604     -0.58026    1.032846    INPUT    time_signature
+popularity      1              4           0        3120           1           7    3.565064    1.276567     -0.54967    1.177466    INPUT    time_signature
+popularity      2              4           0        1538           1           7    3.676853    1.143678     -0.78743    2.325776    INPUT    time_signature
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
