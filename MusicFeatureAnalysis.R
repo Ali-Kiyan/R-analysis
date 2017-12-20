@@ -243,7 +243,7 @@ max(nrml_music$song.hotttnesss)
 #nrml_music = scale(music_cleaned, center = means, scale=sds)
 #calculating the distance matrix
 distance = dist(nrml_music)
-
+set.seed(123)
 #clustring the normalized dataset into three cluster with k-means package
 kc <- kmeans(nrml_music,4)
 #checking the optimal number of clusters with using within sum of square
